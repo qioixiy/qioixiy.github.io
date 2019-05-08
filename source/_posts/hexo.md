@@ -53,3 +53,17 @@ $ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia
 ```
 $ hexo g
 ```
+
+# deploy
+## 安装hexo部署到github辅助工具
+```
+npm install hexo-deployer-git --save
+```
+
+## 修改根目录下的_config.yml文件
+```
+deploy:
+  type: git
+  repo: https://github.com/qioixiy/qioixiy.github.io.git
+  branch: master
+```
