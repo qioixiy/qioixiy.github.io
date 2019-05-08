@@ -43,3 +43,13 @@ $ hexo s # hexo server
 ```
 $ open http://localhost:4000
 ```
+
+## 修改主题
+```
+$ git clone https://github.com/litten/hexo-theme-yilia.git themes/yilia
+```
+获取到主题后，修改_config.yml文件中theme的属性设置为yilia即可
+运行命令重新生成页面
+```
+$ hexo g
+```
