@@ -67,3 +67,13 @@ deploy:
   repo: https://github.com/qioixiy/qioixiy.github.io.git
   branch: master
 ```
+
+# issues
+## 查看依赖
+```
+npm ls --depth 0
+```
+## 如果缺失，手动安装
+```
+npm install {hexo-generator-archive,*} --save
+```
